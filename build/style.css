@@ -1,0 +1,126 @@
+body,html {
+	font-family: '微软雅黑';
+}
+
+#app{
+	width: 600px;
+	margin: 100px auto;
+	position:  relative;
+}
+
+/* header */
+.optHeader {
+	margin: 30px 0;
+}
+.headerTd {
+	width: 33%;
+	text-align: center;
+}
+.optHeader select {
+	width: 5em;
+}
+
+.itemPanel {
+	width: 100%;
+	border: 2px solid #b0c4de;
+	border-radius: 4px;
+	margin-bottom: 100px;
+}
+.itemTd {
+	width: 20%;
+	line-height: 1.5em;
+	text-align: center;
+}
+.itemBtn {
+	width: 3em;
+	font-size: 80%;
+	color: #1e90ff;
+	display: inline-block;
+}
+.tempEmpty {
+	line-height: 1.5em;
+	background: #dcdcdc;
+}
+
+/* addForm */
+.addForm label{
+	text-align: center;
+}
+.addForm input, .addForm select, .addForm textarea{
+	width: 200px;
+	margin: 0 auto 10px auto;
+	display: block;
+}
+.addForm button {
+	padding: 3px 20px;
+	background-color: #1e90ff;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+	margin: 5px auto;
+	display: block;
+}
+
+.tips {
+	display: none;
+	color: #708090;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.overLay {
+	text-align: center;
+	z-index: 100;
+    position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding-top: 50px;
+	background-color: rgba(255, 255, 255, 0);
+	animation-name: detailMerge;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+.overLay table {
+	width: 100%;
+}
+.overLay tr {
+	line-height: 1.5em;
+}
+.overLay th {
+	width: 40%;
+}
+.overLay td {
+	width: 60%;
+	text-align: center;
+}
+.overLay input, .overLay select, .overLay textarea {
+	width: 200px;
+}
+.overLay button {
+	padding: 3px 20px;
+	background-color: #1e90ff;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+	margin: 5px auto;
+	display: inline-block;
+}
+
+@keyframes detailMerge {
+	from {
+		background-color: rgba(255, 255, 255, 0);
+	}
+	to {
+		background-color: rgba(255, 255, 255, 0.95);
+	}
+}
+@-webkit-keyframes detailMerge {
+	from {
+		background-color: rgba(255, 255, 255, 0);
+	}
+	to {
+		background-color: rgba(255, 255, 255, 0.8);
+	}	
+}
