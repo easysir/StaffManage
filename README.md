@@ -18,9 +18,9 @@
 
 # 2.相关资料
 
-在线预览：[人员管理](http://wyuhao.com/staff)
+在线预览：[人员管理](http://wyuhao.com/demo/staff)
 
-代码解析：[十分详细的React实例](http://blog.csdn.net/a153375250/article/details/52667739)
+代码解析：[十分详细的React实例](http://wyuhao.com/article/react/%E5%8D%81%E5%88%86%E8%AF%A6%E7%BB%86%E7%9A%84React%E5%85%A5%E9%97%A8%E5%AE%9E%E4%BE%8B.md)
 
 # 3.致谢
 
